@@ -1,6 +1,10 @@
 # Get-CallDetailRecording
 This script retrieves CDR details for Teams meeting and tries to link it with calendar entries. We then make some stats.
 
+You need to have attended the meeting to have the call details recording in your mailbox. It may happen rarely that the log never appear in the mailbox.
+
+As it may take up to two days fater you attended a meeting to have the call delatil recording logs, make sure to not request your log details too early.
+
 .DESCRIPTION
   In a hidden folder in your mailbox the call details for Teams meeting and Calls is kept. Unfortunately those entries do not have the calendar details.
 
